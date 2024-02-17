@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="main.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flipping Photos</title>
+</head>
+<body>
+    <div class="header">
+        <h1>INKonBTC</h1>
+    </div>
+    <div class="container">
+        <button id="prevBtn" onclick="changePhoto(-1)">Previous</button>
+        <div class="photo-container">
+            <img id="currentPhoto" src="main.js" alt="Current Photo">
+        </div>
+        <button id="nextBtn" onclick="changePhoto(1)">Next</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
